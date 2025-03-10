@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+      <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#F4F7FF]">
+
+   <header>
+      <nav class="mt-5 mb-7">
+         <div class="bg-[#F4F7FF] shadow-md container mx-auto px-4 py-3 rounded-lg">
+            <div class="flex justify-between items-center">
+               <div class="flex items-center gap-5">
+                  <img src="./image/logo.png" alt="Logo" class="w-12 h-12">
+                  <h1 class="text-black text-3xl font-normal">Dev<span class="text-black font-bold">Board</span></h1>
+               </div>
+               <div class="">
+                  <a href="/index.html"><button  class="px-5 py-3 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 
+                     shadow-2xl text-white rounded-lg mx-auto block mt-6 transition-all duration-300">
+                     Back to
+                  </button></a>
+               </div>
+
+            </div>
+         </div>
+      </nav>
+
+      
+   </header>
+
+   <section class="container mx-auto py-5">
+      <div class="flex flex-col gap-4">
+         <div class=" bg-white shadow-2xl rounded-lg p-4 text-black ">
+            <div class="">
+               <h3 class="text-2xl font-bold"> What are the different ways to select an element in the DOM?</h3>
+         
+               <p class="pt-5 text-md font-bold">Using: getElementById getElementsByClassName. getElementsByTagName. querySelectorAll.querySelector.</p>
+            </div>
+         
+         </div>
+         
+         
+         <div class=" bg-white shadow-2xl rounded-lg p-4 text-black">
+            <div class="">
+               <h3 class="text-2xl font-bold">What is event delegation in the DOM?</h3>
+         
+               <p class="pt-5 text-md font-bold">কাধিক এলিমেন্টের ইভেন্ট হ্যান্ডলিং সহজ করতে কোনো প্যারেন্ট এলিমেন্টে ইভেন্ট যোগ করা, যাতে চাইল্ড এলিমেন্টে ইভেন্ট বুদবুদ
+               (event bubbling) হয়ে পৌঁছায়। </p>
+            </div>
+         
+         </div>
+         
+         
+         <div class=" bg-white shadow-2xl rounded-lg p-4 text-black">
+            <div class="">
+               <h3 class="text-2xl font-bold">  What is the difference between innerHTML, innerText, and textContent ?</h3>
+         
+               <p class="pt-5 text-md font-bold">innerHTML: HTML ট্যাগসহ কন্টেন্ট,
+               innerText: শুধুমাত্র দৃশ্যমান টেক্সট,
+               textContent: সমস্ত টেক্সট (HTML ব্যাসিক মার্কআপ ছাড়া) রিটার্ন করে।</p>
+            </div>
+         
+         </div>
+
+
+         <div class=" bg-white shadow-2xl rounded-lg p-4 text-black">
+            <div class="">
+               <h3 class="text-2xl font-bold"> What is event bubbling in the DOM?</h3>
+         
+               <p class="pt-5 text-md font-bold">Event Bubbling হলো যখন কোনো চাইল্ড এলিমেন্টে ইভেন্ট ঘটে, তখন সেই ইভেন্ট প্রথমে ঐ এলিমেন্টে কার্যকর হয়, তারপর তার
+               প্যারেন্ট, তারও প্যারেন্ট—এভাবে উপরের দিকে যেতে থাকে, যতক্ষণ না document পর্যন্ত পৌঁছে।</p>
+            </div>
+         
+         </div>
+
+
+         <div class=" bg-white shadow-2xl rounded-lg p-4 text-black">
+            <div class="">
+               <h3 class="text-2xl font-bold"> How do you create, add, and remove elements using JavaScript?</h3>
+         
+               <p class="pt-5 text-md font-bold">document.createElement("tag"),appendChild(), append(), insertBefore() remove(), removeChild()</p>
+            </div>
+         
+         </div>
+      </div>
+   
+   </section>
+
+
+
+</body>
+
+</html>
